@@ -2,7 +2,7 @@ body {
     width: 100vw;
     height: 100vh;
     margin: 0;
-    background-color: #ffffff;
+    background-color: #EDEDED;
     font-size: 17px;
     display: flex;
     overflow-x: hidden;
@@ -24,23 +24,15 @@ header {
 }
 
 h1 {
-  
+    transition: ease all .5s;
     font-family: LeMurmure;
-    color: #e9e9e9;
+    color: white;
     font-size: 7em;
     margin: 0;
     letter-spacing: 10px;
     writing-mode: vertical-lr;
     text-orientation: mixed;
     transform: scale(-1);
-}
-
-h5{
-    margin: 5px;
-}
-
- .text-content-left p{
-     margin: 5px;
 }
 
 nav {
@@ -238,24 +230,4 @@ a:visited {
 a {
     text-decoration: none;
     color: inherit;
-}
-
-/*_____FULL SCREEN DISPLAY______*/
-
-#fullpage {
-    display: none;
-    position: fixed;
-    z-index: 9999;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background-size: contain;
-    background-repeat: no-repeat no-repeat;
-    background-position: center center;
-    background-color: rgba(0, 0, 0, 0.6);
-  }
-
-  img:hover {
-    cursor: crosshair;
 }

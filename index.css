@@ -2,7 +2,7 @@ body {
     width: 100vw;
     height: 100vh;
     margin: 0;
-    background-color: #ffffff;
+    background-color: #EDEDED;
     overflow: hidden;
     font-size: 17px;
 }
@@ -17,22 +17,16 @@ header {
     height: 10%;
     margin-left: 60px;
     margin-top: 60px;
+    margin-bottom: 40px;
+
 }
 
 h1 {
     font-family: LeMurmure;
-    color: rgb(0, 0, 0);
+    color: black;
     font-size: 2.5em;
     letter-spacing: 10px;
     margin: 0;
-}
-
-h4 {
-    font-family: Format;
-    font-size: 0.5em;
-    color: #8B8B8B;
-    ;
-    letter-spacing: 5px;
 }
 
 h3 {
@@ -42,18 +36,19 @@ h3 {
     color: #4e4e4e;
 }
 
-span{
-    color: #474747;
-    font-family: monospace;
-    letter-spacing: 0;
+h4 {
+    font-family: Format;
+    font-size: 0.6em;
+    color: #4e4e4e;
+    letter-spacing: 5px;
 }
+
 
 nav {
     display: flex;
     flex-direction: column;
     margin-left: 60px;
     font-family: Format;
-    margin-top: 4vh;
 }
 
 li {
@@ -72,7 +67,7 @@ ul {
 }
 
 li:hover {
-    color: rgb(0, 0, 0);
+    color: black;
 }
 
 
@@ -102,14 +97,6 @@ li:hover {
     z-index: -5;
 }
 
-.bg-stonks {
-    background-image: url(img_stonks/bg-stonks.png);
-}
-
-.bg-voter {
-    background-image: url(img_voter/bg_voter.png);
-}
-
 .bg-amply {
     background-image: url(img_amply/bg-amply.png);
 }
@@ -122,12 +109,8 @@ li:hover {
     background-image: url(img_gally/bg-gally.png);
 }
 
-.bg-other {
-    background-image: url(img_other/3.png);
-}
-
-.bg-msn {
-    background-image: url(img_msn/bg-msn2.png);
+.bg-arkea {
+    background-image: url(img_arkea/bg-arkea.jpg);
 }
 
 
@@ -154,7 +137,11 @@ li:hover {
 }
 
 .bg-drawing {
-    background-image: url(img_drawing/dessin1.jpg);
+    background-image: url(img_drawing/bg_drawing.jpg);
+}
+
+.bg-other {
+    background-image: url(img_other/3.png);
 }
 
 
