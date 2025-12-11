@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="project.css">
-    <link rel="shortcut icon" type="image/png" href="/fav-icon.png"/>
     <title>websites</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&family=Josefin+Sans:wght@300&display=swap');
@@ -18,14 +17,14 @@
 
 
     <header>
-        <h1>SHOWCASE WEBSITES</h1>
+        <h1>WEBSITES</h1>
     </header>
 
     <div class="container">
         <main>
             <nav>
                 <div class="btn">
-                    <p><a href="index.html"> RETURN</a></p>
+                    <p><a href="index.html"> BACK</a></p>
                 </div>
 
                 <div class="btn">
@@ -34,17 +33,17 @@
             </nav>
             <div class="text-content">
                 <div class="text-content-left">
-                    <p>Starting from the less is more approach, here are some links to websites with a clearer identity. The objective here is to put forward the images and the typography.</p>
-                    <p>Whole UX and UI made by myself</p>
+                    <p> Here you can find some online websites where I made the whole UX and UI design (mobile and desktop) : </p>
                     <h4><a href="https://www.screen-club.com/" target="_blank">- SCREEN CLUB -</a></h4>
                     <h4><a href="https://www.pierredavid.net/" target="_blank">- PIERRE DAVID -</a></h4>
-                    <p>Images below are from a webiste in development.</p>
+                    <p>The next images are samples of another showcase site in development. I am also making some UX for intern applications in freelance.</p>
                 </div>
 
                 <div class="text-content-right">
-                    <h4>INDIVIDUAL PROJECT</h4>
+
                 </div>
             </div>
+
         </main>
 
         <div class="visual-content" id="macy-content">
@@ -52,25 +51,11 @@
             <img src="img_other/2.png" alt="projet" />
             <img src="img_other/4.png" alt="projet" />
             <img src="img_other/3.png" alt="projet" />
+
         </div>
     </div>
 
-    <div id="fullpage" onclick="this.style.display='none';"></div>
-
     <script src="https://cdn.jsdelivr.net/npm/macy@2"></script>
-
-    <script>
-        function getPics() {} 
-        const imgs = document.querySelectorAll('.visual-content img');
-        const fullPage = document.querySelector('#fullpage');
-    
-        imgs.forEach(img => {
-         img.addEventListener('click', function() {
-          fullPage.style.backgroundImage = 'url(' + img.src + ')';
-          fullPage.style.display = 'flex';
-          });
-        });
-    </script>
 
     <script>
         var masonry = new Macy({

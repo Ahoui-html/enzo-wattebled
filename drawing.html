@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="project.css">
-    <link rel="shortcut icon" type="image/png" href="/fav-icon.png"/>
     <title>drawings</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&family=Josefin+Sans:wght@300&display=swap');
@@ -25,11 +24,11 @@
         <main>
             <nav>
                 <div class="btn">
-                    <p><a href="index.html"> RETURN</a></p>
+                    <p><a href="index.html"> BACK</a></p>
                 </div>
 
                 <div class="btn">
-                    <p><a href="stonks.html"> NEXT</a></p>
+                    <p><a href="amply.html"> NEXT</a></p>
                 </div>
             </nav>
             <div class="text-content">
@@ -42,38 +41,21 @@
         </main>
 
         <div class="visual-content" id="macy-content">
-            <img src="img_drawing/dessin11.jpg" alt="maquette" />
-            <img src="img_drawing/dessin7.jpg" alt="maquette" /> 
+            <img src="img_drawing/bg_drawing.jpg" alt="group" />
+            <img src="img_drawing/des1.jpg" alt="home picture" />
+            <img src="img_drawing/des3.png" alt="immercive" />
+            <img src="img_drawing/dessin1.jpg" alt="maquette" />
             <img src="img_drawing/dessin3.jpg" alt="maquette" />
-            <img src="img_drawing/dessin6.jpg" alt="maquette" />
-            <img src="img_drawing/001.jpg" alt="maquette" />
             <img src="img_drawing/dessin4.jpg" alt="maquette" />
             <img src="img_drawing/dessin5.jpg" alt="maquette" />
-            <img src="img_drawing/des1.jpg" alt="home picture" />
-            <img src="img_drawing/dragon.jpg" alt="maquette" />
-            <img src="img_drawing/LongDragon.png" alt="maquette" />
-            <img src="img_drawing/bg_drawing.jpg" alt="group" />
-            <img src="img_drawing/robot-girl.png" alt="group" />
-            <img src="img_drawing/des3.png" alt="immercive" />
+            <img src="img_drawing/001.jpg" alt="maquette" />
+            <img src="img_drawing/dessin6.jpg" alt="maquette" />
+            <img src="img_drawing/dessin7.jpg" alt="maquette" />
+            <img src="img_drawing/dessin8.jpg" alt="maquette" />
         </div>
     </div>
 
-    <div id="fullpage" onclick="this.style.display='none';"></div>
-
     <script src="https://cdn.jsdelivr.net/npm/macy@2"></script>
- 
-    <script>
-        function getPics() {}
-        const imgs = document.querySelectorAll('.visual-content img');
-        const fullPage = document.querySelector('#fullpage');
-    
-        imgs.forEach(img => {
-         img.addEventListener('click', function() {
-          fullPage.style.backgroundImage = 'url(' + img.src + ')';
-          fullPage.style.display = 'flex';
-          });
-        });
-    </script>
 
     <script>
         var masonry = new Macy({
