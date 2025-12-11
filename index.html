@@ -24,10 +24,12 @@
 
             <h3>UX-UI DESIGN</h3>
             <ul>
-                <li><a onmouseover="myFunctionA(1)" onmouseout="myFunctionB(1)" href="amply.html"> AMPLY</a></li>
-                <li><a onmouseover="myFunctionA(2)" onmouseout="myFunctionB(2)" href="utopiales.html"> UTOPIALES</a></li>
-                <li><a onmouseover="myFunctionA(3)" onmouseout="myFunctionB(3)" href="gally.html"> GALLY</a></li>
-                <li><a onmouseover="myFunctionA(4)" onmouseout="myFunctionB(4)" href="other.html"> WEBSITES</a></li>
+                <li><a onmouseover="myFunctionA(1)" onmouseout="myFunctionB(1)" href="stonks.html"> STONKS</a></li>
+                <li><a onmouseover="myFunctionA(2)" onmouseout="myFunctionB(2)" href="voter.html"> VOTER</a></li>
+                <li><a onmouseover="myFunctionA(3)" onmouseout="myFunctionB(3)" href="amply.html"> AMPLY</a></li>
+                <li><a onmouseover="myFunctionA(4)" onmouseout="myFunctionB(4)" href="utopiales.html"> UTOPIALES</a></li>
+                <li><a onmouseover="myFunctionA(5)" onmouseout="myFunctionB(5)" href="gally.html"> GALLY</a></li>
+                <li><a onmouseover="myFunctionA(6)" onmouseout="myFunctionB(6)" href="other.html"> WEBSITES</a></li>
             </ul>
             <br>
 
@@ -35,15 +37,15 @@
             <h3>VIDEO & INTERACTIONS</h3>
 
             <ul>
-                <li><a onmouseover="myFunctionA(5)" onmouseout="myFunctionB(5)" href="wave.html"> W/A/V/E</a></li>
-                <li><a onmouseover="myFunctionA(6)" onmouseout="myFunctionB(6)" href="offwhite.html"> OFF-WHITE</a></li>
-                <li><a onmouseover="myFunctionA(7)" onmouseout="myFunctionB(7)" href="chaos.html"> CHAOS</a></li>
-                <li><a onmouseover="myFunctionA(8)" onmouseout="myFunctionB(8)" href="raum.html"> RAUM#3</a></li>
-                <li><a onmouseover="myFunctionA(9)" onmouseout="myFunctionB(9)" href="runover.html"> RUNOVER DIMENSION</a></li>
+                <li><a onmouseover="myFunctionA(7)" onmouseout="myFunctionB(7)" href="wave.html"> W/A/V/E</a></li>
+                <li><a onmouseover="myFunctionA(8)" onmouseout="myFunctionB(8)" href="offwhite.html"> OFF-WHITE</a></li>
+                <li><a onmouseover="myFunctionA(9)" onmouseout="myFunctionB(9)" href="chaos.html"> CHAOS</a></li>
+                <li><a onmouseover="myFunctionA(10)" onmouseout="myFunctionB(10)" href="raum.html"> RAUM#3</a></li>
+                <li><a onmouseover="myFunctionA(11)" onmouseout="myFunctionB(11)" href="runover.html"> RUNOVER DIMENSION</a></li>
             </ul>
 
             <ul>
-                <li><a onmouseover="myFunctionA(10)" onmouseout="myFunctionB(10)" href="drawing.html"> DRAWINGS</a></li>
+                <li><a onmouseover="myFunctionA(12)" onmouseout="myFunctionB(12)" href="drawing.html"> DRAWINGS</a></li>
             </ul>
         </nav>
     </div>
@@ -54,33 +56,39 @@
         function myFunctionA(a) { // fonction qui ajoute la class
             var element = document.getElementById("background_chg");
             if (a == 1) {
-                element.classList.toggle("bg-amply");
+                element.classList.toggle("bg-stonks");
             }
             if (a == 2) {
-                element.classList.toggle("bg-utopiales");
+                element.classList.toggle("bg-voter");
             }
             if (a == 3) {
-                element.classList.toggle("bg-gally");
+                element.classList.toggle("bg-amply");
             }
             if (a == 4) {
-                element.classList.toggle("bg-other");
+                element.classList.toggle("bg-utopiales");
             }
             if (a == 5) {
-                element.classList.toggle("bg-waves");
+                element.classList.toggle("bg-gally");
             }
             if (a == 6) {
-                element.classList.toggle("bg-offwhite");
+                element.classList.toggle("bg-other");
             }
             if (a == 7) {
-                element.classList.toggle("bg-chaos");
+                element.classList.toggle("bg-wave");
             }
             if (a == 8) {
-                element.classList.toggle("bg-raum");
+                element.classList.toggle("bg-offwhite");
             }
             if (a == 9) {
-                element.classList.toggle("bg-runover");
+                element.classList.toggle("bg-chaos");
             }
             if (a == 10) {
+                element.classList.toggle("bg-raum");
+            }
+            if (a == 11) {
+                element.classList.toggle("bg-runover");
+            }
+             if (a == 12) {
                 element.classList.toggle("bg-drawing");
             }
         }
@@ -88,33 +96,39 @@
         function myFunctionB(a) { // fonction qui supprime la class
             var element = document.getElementById("background_chg");
             if (a == 1) {
-                element.classList.remove("bg-amply");
+                element.classList.remove("bg-stonks");
             }
             if (a == 2) {
-                element.classList.remove("bg-utopiales");
+                element.classList.remove("bg-voter");
             }
             if (a == 3) {
-                element.classList.remove("bg-gally");
+                element.classList.remove("bg-amply");
             }
             if (a == 4) {
-                element.classList.remove("bg-other");
+                element.classList.remove("bg-utopiales");
             }
             if (a == 5) {
-                element.classList.remove("bg-waves");
+                element.classList.remove("bg-gally");
             }
             if (a == 6) {
-                element.classList.remove("bg-offwhite");
+                element.classList.remove("bg-other");
             }
             if (a == 7) {
-                element.classList.remove("bg-chaos");
+                element.classList.remove("bg-wave");
             }
             if (a == 8) {
-                element.classList.remove("bg-raum");
+                element.classList.remove("bg-offwhite");
             }
             if (a == 9) {
-                element.classList.remove("bg-runover");
+                element.classList.remove("bg-chaos");
             }
             if (a == 10) {
+                element.classList.remove("bg-raum");
+            }
+             if (a == 11) {
+                element.classList.remove("bg-runover");
+            }
+             if (a == 12) {
                 element.classList.remove("bg-drawing");
             }
         }

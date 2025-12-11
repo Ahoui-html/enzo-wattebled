@@ -17,7 +17,7 @@ header {
     height: 10%;
     margin-left: 60px;
     margin-top: 60px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 
 }
 
@@ -97,6 +97,14 @@ li:hover {
     z-index: -5;
 }
 
+.bg-stonks {
+    background-image: url(img_stonks/bg-stonks.png);
+}
+
+.bg-voter {
+    background-image: url(img_voter/bg-voter.png);
+}
+
 .bg-amply {
     background-image: url(img_amply/bg-amply.png);
 }
@@ -109,14 +117,14 @@ li:hover {
     background-image: url(img_gally/bg-gally.png);
 }
 
-.bg-arkea {
-    background-image: url(img_arkea/bg-arkea.jpg);
+.bg-other {
+    background-image: url(img_other/3.png);
 }
 
 
 /*_____________*/
 
-.bg-waves {
+.bg-wave {
     background-image: url(img_wave/bg-wave.jpg);
 }
 
@@ -137,12 +145,9 @@ li:hover {
 }
 
 .bg-drawing {
-    background-image: url(img_drawing/bg_drawing.jpg);
+    background-image: url(img_drawing/bg-drawing.jpg);
 }
 
-.bg-other {
-    background-image: url(img_other/3.png);
-}
 
 
 /*_____RESPONSIVE______*/
