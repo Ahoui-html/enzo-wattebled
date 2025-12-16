@@ -14,7 +14,7 @@
 
         <header>
             <h1>ENZO WATTEBLED</h1>
-            <h4>INTERACTIVE DESIGNER</h4>
+            <h4>PRODUCT DESIGNER</h4>
         </header>
 
         <nav>
@@ -24,6 +24,7 @@
 
             <h3>UX-UI DESIGN</h3>
             <ul>
+                <li><a onmouseover="myFunctionA(0)" onmouseout="myFunctionB(0)" href="carbo.html"> CARBO</a></li>
                 <li><a onmouseover="myFunctionA(1)" onmouseout="myFunctionB(1)" href="stonks.html"> STONKS</a></li>
                 <li><a onmouseover="myFunctionA(2)" onmouseout="myFunctionB(2)" href="voter.html"> VOTER</a></li>
                 <li><a onmouseover="myFunctionA(3)" onmouseout="myFunctionB(3)" href="amply.html"> AMPLY</a></li>
@@ -55,6 +56,9 @@
     <script>
         function myFunctionA(a) { // fonction qui ajoute la class
             var element = document.getElementById("background_chg");
+            if (a == 0) {
+                element.classList.toggle("bg-carbo");
+            }
             if (a == 1) {
                 element.classList.toggle("bg-stonks");
             }
@@ -95,6 +99,9 @@
 
         function myFunctionB(a) { // fonction qui supprime la class
             var element = document.getElementById("background_chg");
+             if (a == 0) {
+                element.classList.remove("bg-carbo");
+            }
             if (a == 1) {
                 element.classList.remove("bg-stonks");
             }

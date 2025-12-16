@@ -97,6 +97,10 @@ li:hover {
     z-index: -5;
 }
 
+.bg-carbo {
+    background-image: url(img_carbo/bg-carbo.png);
+}
+
 .bg-stonks {
     background-image: url(img_stonks/bg-stonks.png);
 }

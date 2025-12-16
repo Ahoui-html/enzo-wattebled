@@ -231,3 +231,25 @@ a {
     text-decoration: none;
     color: inherit;
 }
+
+
+/*_____FULL SCREEN DISPLAY______*/
+
+#fullpage {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat no-repeat;
+    background-position: center center;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+
+
+  img:hover {
+    cursor: pointer;
+    }

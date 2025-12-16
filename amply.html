@@ -52,7 +52,22 @@
         </div>
     </div>
 
+    
+    <div id="fullpage" onclick="this.style.display='none';"></div>
+
     <script src="https://cdn.jsdelivr.net/npm/macy@2"></script>
+
+    <script>
+        function getPics() {} 
+        const imgs = document.querySelectorAll('.visual-content img');
+        const fullPage = document.querySelector('#fullpage');
+        imgs.forEach(img => {
+         img.addEventListener('click', function() {
+          fullPage.style.backgroundImage = 'url(' + img.src + ')';
+          fullPage.style.display = 'flex';
+          });
+        });
+    </script>
 
     <script>
         var masonry = new Macy({
