@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="project.css">
+    <link rel="shortcut icon" type="image/png" href="/fav-icon.png"/>
+    <title>voter</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&family=Josefin+Sans:wght@300&display=swap');
+    </style>
+</head>
+
+
+<body>
+
+
+    <header>
+        <h1>VOTEER</h1>
+    </header>
+
+    <div class="container">
+        <main>
+            <nav>
+                <div class="btn">
+                    <p><a href="index.html"> BACK</a></p>
+                </div>
+
+                <div class="btn">
+                    <p><a href="amply.html"> NEXT</a></p>
+                </div>
+            </nav>
+            <div class="text-content">
+                <div class="text-content-left">
+                    <h5>Objectives</h5>
+                    <p> Voteer is a vote application to ease intern decisions for big companies. The application had to manage a large number of participants while being user friendly (our typical user is not very familiar with technologies).</p>
+                    <br>
+                    <h5>Challenges</h5>
+                    <p>First: implement the basic functions of a voting application: define the date, time, add additional information, create different types of votes (MCQ; radio; split vote, list election)</p>
+                    <p>Secondly: Add new functionalities: such as being able to give one's vote to another participant, or enable manual vote counting to add an additional level of security on certain votes (useful for large companies).</p>
+                    <p>To be a relevant application that fits in our current professional context, we had to take into consideration the arrival of participants (in person or remotely). To control and ensure a maximum participation rate for each vote, we have set up a communication part to follow up with the participants by email or SMS.</p>
+                    <br>
+                    <h5>Design method and tools</h5>
+                    <p>Audit existing vote and poll application, listing key points in the user flow that work well or could be improved. Using these key points to build our own experience, and in parallel, integrate those previous features.</p>
+                    <p>Wireframing all functionalities, then apply graphic charter.</p>
+                </div>
+                <div class="text-content-right">
+                    <h4>FREELANCE PROJECT</h4>
+                    <p><a href="https://www.voteer.com/fr" target="_blank">Check the application here</a></p>
+                </div>
+            </div>
+        </main>
+
+        <div class="visual-content" id="macy-content">
+            <img src="img_voter/1.png" alt="mockup" />
+            <img src="img_voter/2.png" alt="mockup" />
+            <img src="img_voter/4.png" alt="mockup" />
+            <img src="img_voter/3.jpg" alt="mockup" />
+            <img src="img_voter/4.jpg" alt="mockup" />
+            <img src="img_voter/color.jpg" alt="mockup" />
+            <img src="img_voter/wire1.png" alt="mockup" />
+            <img src="img_voter/wire2.png" alt="mockup" />
+        </div>
+    </div>
+
+    <div id="fullpage" onclick="this.style.display='none';"></div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/macy@2"></script>
+
+    <script>
+        function getPics() {} 
+        const imgs = document.querySelectorAll('.visual-content img');
+        const fullPage = document.querySelector('#fullpage');
+    
+        imgs.forEach(img => {
+         img.addEventListener('click', function() {
+          fullPage.style.backgroundImage = 'url(' + img.src + ')';
+          fullPage.style.display = 'flex';
+          });
+        });
+    </script>
+
+    <script>
+        var masonry = new Macy({
+            container: '#macy-content',
+            trueOrder: true,
+            waitForImages: true,
+            useOwnImageLoader: false,
+            debug: false,
+            mobileFirst: false,
+            columns: 2,
+            margin: {
+                y: 20,
+                x: 20,
+            },
+            breakAt: {
+                760: 1,
+            },
+        });
+    </script>
+
+</body>
+
+
+</html>
