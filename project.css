@@ -93,6 +93,20 @@ main {
     margin-right: 2%;
 }
 
+.visual-content1 {
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 15%;
+    margin-right: 2%;
+}
+
+.visual-content2 {
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 15%;
+    margin-right: 2%;
+}
+
 .vod {
     height: 100%;
 }
