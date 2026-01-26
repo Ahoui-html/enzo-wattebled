@@ -54,18 +54,51 @@
                 </div>
             </div>
         </main>
-        
+
+        <main>
+            <div class="text-content">
+                 <div class="text-content-left">
+                     <h4>SCREENSHOT FROM THE APPLICATION</h4>
+                </div>
+            </div>
+        </main>
         <div class="visual-content" id="macy-content">
             <img src="img_carbo/sign-up.png" alt="projet" />
             <img src="img_carbo/traj.png" alt="projet" />
             <img src="img_carbo/visu1.png" alt="projet" />
             <img src="img_carbo/visu2.png" alt="projet" />
             <img src="img_carbo/visu3.png" alt="projet" />
+        </div>      
+         
+    
+        <main>
+            <div class="text-content">
+                 <div class="text-content-left">
+                     <h4>DESIGN SYSTEM PREVIEW</h4>
+                </div>
+            </div>
+        </main>
+         <div class="visual-content1" id="macy-content1">
+           <img src="img_carbo/Colors.png" alt="projet" />
             <img src="img_carbo/Buttons.png" alt="projet" />
-            <img src="img_carbo/Colors.png" alt="projet" />
             <img src="img_carbo/Question.png" alt="projet" />
             <img src="img_carbo/Menu-navigation.png" alt="projet" />
             <img src="img_carbo/Inputs.png" alt="projet" />
+        </div>
+       
+        <main>
+            <div class="text-content">
+                 <div class="text-content-left">
+                     <h4>EXAMPLES OF PRODUCT VISUALS FOR COMMUNICATION</h4>
+                </div>
+            </div>
+        </main>
+        <div class="visual-content2" id="macy-content2">
+            <img src="img_carbo/marketing/importer.png" alt="projet" />
+            <img src="img_carbo/marketing/mesurer.png" alt="projet" />
+            <img src="img_carbo/marketing/plan-action.png" alt="projet" />
+            <img src="img_carbo/marketing/prompt.png" alt="projet" />
+            <img src="img_carbo/marketing/visualiser.png" alt="projet" />
         </div>
 
     </div>
@@ -89,6 +122,44 @@
     <script>
         var masonry = new Macy({
             container: '#macy-content',
+            trueOrder: true,
+            waitForImages: true,
+            useOwnImageLoader: false,
+            debug: false,
+            mobileFirst: false,
+            columns: 2,
+            margin: {
+                y: 20,
+                x: 20,
+            },
+            breakAt: {
+                760: 1,
+            },
+        });
+    </script>
+
+    <script>
+        var masonry = new Macy({
+            container: '#macy-content1',
+            trueOrder: true,
+            waitForImages: true,
+            useOwnImageLoader: false,
+            debug: false,
+            mobileFirst: false,
+            columns: 2,
+            margin: {
+                y: 20,
+                x: 20,
+            },
+            breakAt: {
+                760: 1,
+            },
+        });
+    </script>
+
+    <script>
+        var masonry = new Macy({
+            container: '#macy-content2',
             trueOrder: true,
             waitForImages: true,
             useOwnImageLoader: false,
