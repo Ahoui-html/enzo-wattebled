@@ -2,10 +2,11 @@ body {
     width: 100vw;
     height: 100vh;
     margin: 0;
-    background-color: #EDEDED;
+    background-color: #EDEAE4;
     font-size: 17px;
     display: flex;
     overflow-x: hidden;
+    color: #30254C;
 }
 
 .container {
@@ -231,7 +232,7 @@ p a:hover {
 
 @font-face {
     font-family: Format;
-    src: url(Format_1452.woff2);
+    src: url(Format_1452.woff);
 }
 
 

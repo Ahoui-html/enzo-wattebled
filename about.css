@@ -2,10 +2,11 @@ body {
     width: 100vw;
     height: 100vh;
     margin: 0;
-    background-color: #EDEDED;
+    background-color: #EDEAE4;
     font-size: 17px;
     display: flex;
     overflow-x: hidden;
+    color: #30254C;
 }
 
 .container {
@@ -20,26 +21,27 @@ header {
 }
 
 h1 {
-     font-family: LeMurmure;
-    color: black;
+    font-family: LeMurmure;
+    color: #2001FF;
     font-size: 4em;
     margin: 0;
 }
 
 h3 {
     font-family: Format;
+    font-weight: 0;
     font-size: 0.8em;
     letter-spacing: 2px;
     margin: 0;
     margin-bottom: 8px;
-    color: #4e4e4e;
+    color: #30254C;
 }
 
 h4 {
     font-family: Format;
-    font-size: 0.6em;
-    color: #4e4e4e;
-    letter-spacing: 5px;
+    font-size: 0,7em;
+    color: #30254C;
+    letter-spacing: 4px;
 }
 
 .text-content-left p {
@@ -50,9 +52,6 @@ h4 {
     margin: 0;
 }
 
-.text-content-right h4 {
-    margin-top: 0;
-}
 
 nav {
     margin-left: 60px;
@@ -142,7 +141,7 @@ h4 a:hover {
 
 @font-face {
     font-family: Format;
-    src: url(Format_1452.woff2);
+    src: url(Format_1452.woff);
 }
 
 
